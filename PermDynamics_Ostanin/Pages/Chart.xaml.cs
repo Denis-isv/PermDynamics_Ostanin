@@ -16,21 +16,13 @@ using System.Windows.Shapes;
 namespace PermDynamics_Ostanin.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для Main.xaml
+    /// Логика взаимодействия для Chart.xaml
     /// </summary>
-    public partial class Main : Page
+    public partial class Chart : Page
     {
-        public MainWindow mainWindow;
-        public Main(MainWindow mainWindow)
+        public Chart()
         {
             InitializeComponent();
-            this.mainWindow = mainWindow;
-        }
-        private void OpenPageChart(object sender, RoutedEventArgs e)
-        {
-            float value = Convert.ToInt32(tb_value.Text);
-            mainWindow.pointsInfo.Add(new Classes.PointInfo(value));
-            mainWindow.OpenPages(MainWindow.pages.chart);
         }
     }
 }
