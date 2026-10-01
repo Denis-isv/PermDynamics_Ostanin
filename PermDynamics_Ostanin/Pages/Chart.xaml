@@ -9,6 +9,15 @@
       Title="Chart">
 
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/backgorund.jpg"/>
+        </Grid.Background>
+        <ScrollViewer x:Name="scroll" VerticalScrollBarVisibility="Hidden" HorizontalScrollBarVisibility="Hidden">
+            <Canvas x:Name="canvas" Margin="10,10,10,10" HorizontalAlignment="Left"/>
+        </ScrollViewer>
+        <Grid Width="200" Height="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10, 0, 0, 10" Background="#7FFFFFFF">
+            <Label x:Name="current_value" Content="Тек. знач: " Margin="10,10,10,0" VerticalAlignment="Top"/>
+            <Label x:Name="average_value" Content="Сред. знач: " Margin="10,36,10,0" VerticalAlignment="Top"/>
+        </Grid>
     </Grid>
 </Page>
