@@ -16,8 +16,8 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Images/backgorund.jpg" Opacity="1"/>
         </Grid.Background>
-        <Label Content="Perm Dynamics" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top"
-        Foreground="White" FontSize="36" FontWeight="Bold" Height="58" Width="278"/>
+        <Label Content="Perm Dynamics"  HorizontalAlignment="Center" Margin="0,279,0,0"
+        Foreground="White" FontSize="36" FontWeight="Bold" Width="278" Height="58" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Center" Height="100" Margin="121,179,255.8,130.6" VerticalAlignment="Center" Width="100" Source="/Images/ic-club.jpg"/>
         <Label Content="Укажите начальное значение акции:" Grid.Column="1" Margin="12.2,191,82.4,192.6" 
            VerticalAlignment="Center" Foreground="White" Height="26" HorizontalAlignment="Center"/>
